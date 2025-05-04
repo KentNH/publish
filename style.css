@@ -1,0 +1,217 @@
+.logo{
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 35px;
+}
+.myButton{
+  background-color: blue;
+  color: whitesmoke;
+  margin: 0 auto;
+  display: block;
+  border-radius: 30px;
+
+}
+
+.logo:hover{
+  opacity: 0.5;
+}
+
+.web-design:hover{
+  opacity: 0.5;
+}
+
+.design{
+  border: 1px dotted whitesmoke;
+}
+
+.web-design{
+  border: 2px solid blue;
+  box-shadow: 2px 2px 2px 2px blue;
+}
+.projects{
+  text-align: center;
+}
+.float-right{
+  float: right;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  border: 1px dotted blue;
+  box-shadow: 2px 2px 2px 2px blue;
+}
+
+#home-hero2{
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+}
+
+.resume{
+  background-color: #0C0B54;
+  margin: 40px;
+  border: 2px solid whitesmoke;
+}
+
+
+
+header{
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(1,26,209,1) 100%, rgba(4,34,60,1) 100%);
+}
+ 
+ body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+ }
+
+
+ /*Main*/
+ main{
+  max-width: 1200px;
+  margin:30px auto;
+  padding: 3px;
+ }
+
+ div{
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 10px;
+  line-height: 30px;
+ }
+
+canvas{
+  background-image: url(images/my-background.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  display: block;
+}
+ h1{
+  font-size: 3em;
+  color: #0e98ff;
+ }
+  h2{
+  color: #0e98ff;
+ }
+ h4{
+  text-align: center;
+ }
+ h6{
+  text-align: center;
+ }
+ 
+
+  /* Website Links except the nav */
+ a:hover{
+  color: orange;
+ }
+ a:active{
+  color: black;
+ }
+
+/* Navigation*/
+
+ nav{
+  background: rgb(1,24,191);
+  background: linear-gradient(45deg, rgba(1,24,191,1) 0%, rgba(0,0,0,1) 38%, rgba(0,3,25,1) 72%, rgba(12,27,143,1) 97%);
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  padding: 5px;
+  line-height: 50%;
+ }
+ nav ul{
+   list-style-type:none;
+   text-align: center;
+   margin: 15px 0;
+   padding: 0;
+}
+ nav a{
+   text-decoration:none;
+ }
+ nav li{
+   padding:20px;
+   display:inline;
+ }
+ nav a:link{
+   color:white;
+ }
+ nav a:visited{
+   color:white;
+ }
+ nav a:hover{
+   color:orange;
+ }
+ nav a:active{
+   color:blue;
+ }
+
+footer{
+    margin: 0 auto;
+     clear: both;
+    color: whitesmoke;
+    font-style: italic;
+    text-align: left;
+    background: #2c2a9b;
+    background: linear-gradient(149deg,rgba(44, 42, 155, 1) 0%, rgba(8, 8, 29, 1) 16%, rgba(0, 0, 0, 1) 49%, rgba(8, 8, 44, 1) 82%, rgba(46, 49, 255, 1) 100%);
+  }
+
+
+
+.footer-icons h4{
+  text-align: left;
+}
+
+ /*The CSS will work ONLY IF the screen size is less than 1024px (tablets and smartphones) */
+    h1{
+      font-size: 2.5em;
+    }
+    h2{
+      font-size: 1.5em;
+    }
+    h3{
+      font-size: 1.3em;
+    }
+    main,footer{
+      width: 100%;
+    }
+    .mobile{
+  display:none;
+}
+  
+@media only screen and (max-width: 768px){
+  .desktop{
+    display:none;
+  }
+  .mobile{
+    display: block;
+    touch-action: manipulation;
+  }
+}
+
+@media only screen and (max-width: 768px){
+/*The CSS will work ONLY IF the screen size is less than 768px (smartphones only) */
+    h1{
+      font-size: 2em;
+    }
+
+    .home-hero{
+      height: 125px;
+    }
+    .home-hero h1{
+      height: 125px;
+      font-size: 1.5em;
+      padding-top: 45px;
+    }
+    
+    }
+    .text-box{
+      float: none;
+      max-width: 100%;
+      display: block;
+    }
+  }
+    
