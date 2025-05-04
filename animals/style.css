@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+ h1{font-family: "DM", serif;}
+ main{  font-family: "Funnel", sans-serif;}
+
+ header{
+  text-align: center;
+  padding: 3px;
+  background-color:ghostwhite;
+ }
+ 
+ body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+ }
+  h1{
+  font-size: 3em;
+ }
+
+ /*Main*/
+ main{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+ }
+
+ .hero-image{
+  border: solid black 5px;
+ }
+  
+  blockquote{
+  background-color: ghostwhite;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 15px;
+
+}
+ /* Website Links except the nav */
+
+ a:link{
+  color: #b300b3;
+ }
+ a:visited{
+  color: #b300b3;
+ }
+ a:hover{
+  color: blue;
+ }
+ a:active{
+  color: black;
+ }
+
+
+/* Navigation*/
+
+ nav{
+  background-color: brown;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 2px;
+ }
+ nav ul{
+   list-style-type:none;
+   text-align: center;
+   margin: 8px 0;
+   padding: 0;
+}
+ nav a{
+   text-decoration:none;
+ }
+ nav li{
+   padding:20px;
+   display:inline;
+ }
+ nav a:link{
+   color:white;
+ }
+ nav a:visited{
+   color:white;
+ }
+ nav a:hover{
+   color:yellow;
+ }
+ nav a:active{
+   color:blue;
+ }
+
+ .fa{
+  font-size: 4.5em;
+  color: brown;
+  padding: 15px;
+  background-color: ghostwhite;
+  border-bottom:5px solid black;
+  border-left:5px solid black;
+  border-right:5px solid black;
+ }
+
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-color: brown;
+    border: 5px solid black;
+}
+
+
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    border: 3px solid black;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+/*Footer*/
+
+ footer{
+  text-align: center;
+  background-color: black;
+  padding: 30px;
+  color: white;
+ }
+
+ h3{
+  text-align: left;
+ }
+
+ p{
+  text-align: left;
+ }
+
+ footer div{
+  background-color: brown;
+  padding: 15px;
+ }
+
+ footer .fa{
+  font-size: 2em;
+ }
+ /* CSS fot tablets */
+ @media only screen and (max-width: 1024px){
+    h1{
+      font-size: 2em;
+    }
+
+ }
+
+  /* CSS fot phones */
+  @media only screen and (max-width: 768px){
+     h1{
+      font-size: 1.5em;
+    }
+  
+ }
